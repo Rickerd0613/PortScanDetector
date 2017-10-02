@@ -72,5 +72,6 @@ for line in log:
       ips[ip] = [port]
 
 for key, value in ips.iteritems():
+  #TODO: Added check for 10 ports
   if not isInFirewall(key):
     banIp(key)
