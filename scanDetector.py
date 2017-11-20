@@ -4,6 +4,7 @@ import re
 import os
 import subprocess
 
+# Change this to True if you are using iptables
 isIptables = False
 
 
